@@ -1,0 +1,10 @@
+name: sen1511
+channels:
+    - conda-forge
+dependencies:
+    - python=3.10
+    - pyomo=6.4.1
+    - pandas=1.4.3
+    - matplotlib
+    - jupyter
+    - glpk
