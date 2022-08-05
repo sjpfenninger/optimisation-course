@@ -14,6 +14,7 @@ You will work in a temporary session in your web browser. You can either run the
 | No. | Topic | Binder | Google Colab |
 |---|---|---|---|
 | 0 | Getting started | [Link](https://mybinder.org/v2/gh/sjpfenninger/sen1511/HEAD?labpath=0%20-%20Getting%20started.ipynb) | [Link](https://colab.research.google.com/github/sjpfenninger/sen1511/blob/main/0%20-%20Getting%20started.ipynb)|
+| 1 | LP | [Link](https://mybinder.org/v2/gh/sjpfenninger/sen1511/HEAD?labpath=1%20-%20LP.ipynb) | [Link](https://colab.research.google.com/github/sjpfenninger/sen1511/blob/main/1%20-%20LP.ipynb)|
 
 ## Run locally on your machine
 
