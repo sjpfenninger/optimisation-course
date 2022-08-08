@@ -1,3 +1,5 @@
+import itertools
+
 import pandas as pd
 import pyomo.environ as pyo
 from IPython.display import display, HTML
@@ -27,17 +29,15 @@ def get_constraint_info(model, constraint):
     value = constraint()
     try:
         dual = model.dual[constraint]
-    except Keyerror:
+    except KeyError:
         dual = None
-    slack = constraint.slack()
+    # slack = constraint.slack()
     expr = constraint.expr.to_string()
-    return {
-        "Name": name,
-        "Expression": expr,
-        "Value": value,
-        "Shadow price": dual,
-        "Binding": True if slack == 0 else False,
-    }
+    result = {"Name": name, "Expression": expr, "Value": value}
+    if dual is not None:
+        result["Shadow price"] = dual
+        result["Binding"] = True if round(dual, 9) != 0 else False
+    return result
 
 
 def get_variable_info(model, variable):
@@ -52,13 +52,27 @@ def get_objective_info(model, objective):
     return {"Name": name, "Value": value}
 
 
-def summarise_lp_results(model):
+def summarise_results(model):
     components = list(model.component_objects())
     objectives = [i for i in components if isinstance(i, pyo.base.objective.Objective)]
-    variables = [i for i in components if isinstance(i, pyo.base.var.Var)]
-    constraints = [
-        i for i in components if isinstance(i, pyo.base.constraint.Constraint)
+    scalar_variables = [i for i in components if isinstance(i, pyo.base.var.ScalarVar)]
+    scalar_constraints = [
+        i for i in components if isinstance(i, pyo.base.constraint.ScalarConstraint)
     ]
+    indexed_variables = [
+        i[j]
+        for i in components
+        if isinstance(i, pyo.base.var.IndexedVar)
+        for j in i.index_set()
+    ]
+    indexed_constraints = [
+        i[j]
+        for i in components
+        if isinstance(i, pyo.base.constraint.IndexedConstraint)
+        for j in i.index_set()
+    ]
+    variables = scalar_variables + indexed_variables
+    constraints = scalar_constraints + indexed_constraints
 
     df_objectives = pd.DataFrame([get_objective_info(model, c) for c in objectives])
     df_variables = pd.DataFrame([get_variable_info(model, c) for c in variables])

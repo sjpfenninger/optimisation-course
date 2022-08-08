@@ -8,3 +8,6 @@ dependencies:
     - matplotlib
     - jupyter
     - glpk
+    - pip
+    - pip:
+        - -e git+https://github.com/sjpfenninger/sen1511tools.git#egg=sen1511tools&subdirectory=sen1511
