@@ -15,6 +15,7 @@ You will work in a temporary session in your web browser. You can either run the
 |---|---|---|---|
 | 0 | Getting started | [Link](https://mybinder.org/v2/gh/sjpfenninger/sen1511/HEAD?labpath=0%20-%20Getting%20started.ipynb) | [Link](https://colab.research.google.com/github/sjpfenninger/sen1511/blob/main/0%20-%20Getting%20started.ipynb)|
 | 1 | LP | [Link](https://mybinder.org/v2/gh/sjpfenninger/sen1511/HEAD?labpath=1%20-%20LP.ipynb) | [Link](https://colab.research.google.com/github/sjpfenninger/sen1511/blob/main/1%20-%20LP.ipynb)|
+| 2 | MILP | [Link](https://mybinder.org/v2/gh/sjpfenninger/sen1511/HEAD?labpath=2%20-%20MILP.ipynb) | [Link](https://colab.research.google.com/github/sjpfenninger/sen1511/blob/main/2%20-%20MILP.ipynb)|
 
 ## Run locally on your machine
 
