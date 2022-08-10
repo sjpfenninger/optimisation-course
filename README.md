@@ -5,6 +5,8 @@
 
 # SEN1511: Engineering Optimization and Integrating Renewables in Electricity Markets
 
+Materials for the TU Delft COSEM MSc course [SEN1511](https://studiegids.tudelft.nl/a101_searchCtrl.do?course_code=SEN1511&surname=&item_value=&onlyElectives=Y&tag_id=&deleteTag_id=&operation=searchOnCode).
+
 ## Run notebooks online
 
 This is the easiest option if you do not want to set up Python on your own computer or to work in a computer room.
@@ -15,6 +17,7 @@ You will work in a temporary session in your web browser. You can either run the
 |---|---|---|---|
 | 0 | Getting started | [Link](https://mybinder.org/v2/gh/sjpfenninger/sen1511/HEAD?labpath=0%20-%20Getting%20started.ipynb) | [Link](https://colab.research.google.com/github/sjpfenninger/sen1511/blob/main/0%20-%20Getting%20started.ipynb)|
 | 1 | LP | [Link](https://mybinder.org/v2/gh/sjpfenninger/sen1511/HEAD?labpath=1%20-%20LP.ipynb) | [Link](https://colab.research.google.com/github/sjpfenninger/sen1511/blob/main/1%20-%20LP.ipynb)|
+| 1 | LP - Solutions | [Link](https://mybinder.org/v2/gh/sjpfenninger/sen1511/HEAD?labpath=1%20-%20LP%20-%20Solutions.ipynb) | [Link](https://colab.research.google.com/github/sjpfenninger/sen1511/blob/main/1%20-%20LP%20-%20Solutions.ipynb)|
 | 2 | MILP | [Link](https://mybinder.org/v2/gh/sjpfenninger/sen1511/HEAD?labpath=2%20-%20MILP.ipynb) | [Link](https://colab.research.google.com/github/sjpfenninger/sen1511/blob/main/2%20-%20MILP.ipynb)|
 
 ## Run locally on your machine
