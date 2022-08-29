@@ -6,10 +6,11 @@ dependencies:
     - python=3.10
     - pyomo=6.4.1
     - pandas=1.4.3
-    - matplotlib
+    - matplotlib=3.5.3
     - jupyter
-    - glpk
-    - gurobi
+    - glpk=5.0
+    - ipopt=3.14.9
+    - gurobi=9.5.2
     - pip
     - pip:
         - -e git+https://github.com/sjpfenninger/sen1511.git#egg=sen1511utils&subdirectory=sen1511utils
