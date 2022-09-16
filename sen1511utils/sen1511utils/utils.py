@@ -5,6 +5,18 @@ import pyomo.environ as pyo
 from IPython.display import display, HTML
 
 
+# Source: https://stackoverflow.com/a/47428575
+def type_of_script():
+    try:
+        ipy_str = str(type(get_ipython()))
+        if "zmqshell" in ipy_str:
+            return "jupyter"
+        if "terminal" in ipy_str:
+            return "ipython"
+    except:
+        return "terminal"
+
+
 # Source: https://stackoverflow.com/a/57832026
 def display_side_by_side(dfs: list, captions: list):
     """Display tables side by side to save vertical space
@@ -78,7 +90,22 @@ def summarise_results(model):
     df_variables = pd.DataFrame([get_variable_info(model, c) for c in variables])
     df_constraints = pd.DataFrame([get_constraint_info(model, c) for c in constraints])
 
-    display_side_by_side(
-        [df_objectives, df_variables, df_constraints],
-        captions=["Objective", "Variables", "Constraints"],
-    )
+    env = type_of_script()
+
+    if env == "jupyter":
+        display_side_by_side(
+            [df_objectives, df_variables, df_constraints],
+            captions=["Objective", "Variables", "Constraints"],
+        )
+    else:
+        print("Objective")
+        print("=========")
+        print(df_objectives)
+        print("\n")
+        print("Variables")
+        print("=========")
+        print(df_variables)
+        print("\n")
+        print("Constraints")
+        print("===========")
+        print(df_constraints)
