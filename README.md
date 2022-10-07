@@ -22,6 +22,8 @@ You will work in a temporary session in your web browser. You can either run the
 | 2 | MILP - Solutions | [Link](https://mybinder.org/v2/gh/sjpfenninger/sen1511/HEAD?labpath=2%20-%20MILP%20-%20Solutions.ipynb) | [Link](https://colab.research.google.com/github/sjpfenninger/sen1511/blob/main/2%20-%20MILP%20-%20Solutions.ipynb)|
 | 4 | NLP | [Link](https://mybinder.org/v2/gh/sjpfenninger/sen1511/HEAD?labpath=4%20-%20NLP.ipynb) | [Link](https://colab.research.google.com/github/sjpfenninger/sen1511/blob/main/4%20-%20NLP.ipynb)|
 | 4 | NLP - Solutions | [Link](https://mybinder.org/v2/gh/sjpfenninger/sen1511/HEAD?labpath=4%20-%20NLP%20-%20Solutions.ipynb) | [Link](https://colab.research.google.com/github/sjpfenninger/sen1511/blob/main/4%20-%20NLP%20-%20Solutions.ipynb)|
+| 5 | Parametric uncertainty | [Link](https://mybinder.org/v2/gh/sjpfenninger/sen1511/HEAD?labpath=5%20-%20Parametric%20uncertainty.ipynb) | [Link](https://colab.research.google.com/github/sjpfenninger/sen1511/blob/main/5%20-%20Parametric%20uncertainty.ipynb)|
+| 5 | Parametric uncertainty - Solutions | [Link](https://mybinder.org/v2/gh/sjpfenninger/sen1511/HEAD?labpath=5%20-%20Parametric%20uncertainty%20-%20Solutions.ipynb) | [Link](https://colab.research.google.com/github/sjpfenninger/sen1511/blob/main/5%20-%20Parametric%20uncertainty%20-%20Solutions.ipynb)|
 
 ## Run locally on your machine
 
