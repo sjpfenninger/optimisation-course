@@ -56,6 +56,8 @@ solver = pyo.SolverFactory('glpk')
 
 ## License
 
+Authors: Stefan Pfenninger, Uğurcan Işık
+
 [![CC BY 4.0][cc-by-image]][cc-by]
 
 This work is licensed under a [Creative Commons Attribution 4.0 International License][cc-by].
