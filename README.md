@@ -15,15 +15,19 @@ You will work in a temporary session in your web browser. You can either run the
 
 | No. | Topic | Binder | Google Colab |
 |---|---|---|---|
-| 0 | Getting started | [Link](https://mybinder.org/v2/gh/sjpfenninger/sen1511/HEAD?labpath=0%20-%20Getting%20started.ipynb) | [Link](https://colab.research.google.com/github/sjpfenninger/sen1511/blob/main/0%20-%20Getting%20started.ipynb)|
-| 1 | LP | [Link](https://mybinder.org/v2/gh/sjpfenninger/sen1511/HEAD?labpath=1%20-%20LP.ipynb) | [Link](https://colab.research.google.com/github/sjpfenninger/sen1511/blob/main/1%20-%20LP.ipynb)|
-| 1 | LP - Solutions | [Link](https://mybinder.org/v2/gh/sjpfenninger/sen1511/HEAD?labpath=1%20-%20LP%20-%20Solutions.ipynb) | [Link](https://colab.research.google.com/github/sjpfenninger/sen1511/blob/main/1%20-%20LP%20-%20Solutions.ipynb)|
-| 2 | MILP | [Link](https://mybinder.org/v2/gh/sjpfenninger/sen1511/HEAD?labpath=2%20-%20MILP.ipynb) | [Link](https://colab.research.google.com/github/sjpfenninger/sen1511/blob/main/2%20-%20MILP.ipynb)|
-| 2 | MILP - Solutions | [Link](https://mybinder.org/v2/gh/sjpfenninger/sen1511/HEAD?labpath=2%20-%20MILP%20-%20Solutions.ipynb) | [Link](https://colab.research.google.com/github/sjpfenninger/sen1511/blob/main/2%20-%20MILP%20-%20Solutions.ipynb)|
-| 4 | NLP | [Link](https://mybinder.org/v2/gh/sjpfenninger/sen1511/HEAD?labpath=4%20-%20NLP.ipynb) | [Link](https://colab.research.google.com/github/sjpfenninger/sen1511/blob/main/4%20-%20NLP.ipynb)|
-| 4 | NLP - Solutions | [Link](https://mybinder.org/v2/gh/sjpfenninger/sen1511/HEAD?labpath=4%20-%20NLP%20-%20Solutions.ipynb) | [Link](https://colab.research.google.com/github/sjpfenninger/sen1511/blob/main/4%20-%20NLP%20-%20Solutions.ipynb)|
-| 5 | Parametric uncertainty | [Link](https://mybinder.org/v2/gh/sjpfenninger/sen1511/HEAD?labpath=5%20-%20Parametric%20uncertainty.ipynb) | [Link](https://colab.research.google.com/github/sjpfenninger/sen1511/blob/main/5%20-%20Parametric%20uncertainty.ipynb)|
-| 5 | Parametric uncertainty - Solutions | [Link](https://mybinder.org/v2/gh/sjpfenninger/sen1511/HEAD?labpath=5%20-%20Parametric%20uncertainty%20-%20Solutions.ipynb) | [Link](https://colab.research.google.com/github/sjpfenninger/sen1511/blob/main/5%20-%20Parametric%20uncertainty%20-%20Solutions.ipynb)|
+| 0 | Getting started with Python | [Link](https://mybinder.org/v2/gh/sjpfenninger/optimisation-course/HEAD?labpath=0%20-%20Getting%20started%20with%20Python.ipynb) | [Link](https://colab.research.google.com/github/sjpfenninger/optimisation-course/blob/main/0%20-%20Getting%20started%20with%20Python.ipynb)|
+| 1 | LP | [Link](https://mybinder.org/v2/gh/sjpfenninger/optimisation-course/HEAD?labpath=1%20-%20LP.ipynb) | [Link](https://colab.research.google.com/github/sjpfenninger/optimisation-course/blob/main/1%20-%20LP.ipynb)|
+| 1 | LP - Solutions | [Link](https://mybinder.org/v2/gh/sjpfenninger/optimisation-course/HEAD?labpath=1%20-%20LP%20-%20Solutions.ipynb) | [Link](https://colab.research.google.com/github/sjpfenninger/optimisation-course/blob/main/1%20-%20LP%20-%20Solutions.ipynb)|
+| 2 | Pyomo | [Link](https://mybinder.org/v2/gh/sjpfenninger/optimisation-course/HEAD?labpath=2%20-%20Pyomo.ipynb) | [Link](https://colab.research.google.com/github/sjpfenninger/optimisation-course/blob/main/2%20-%20Pyomo.ipynb)|
+| 2 | Pyomo - Solutions | [Link](https://mybinder.org/v2/gh/sjpfenninger/optimisation-course/HEAD?labpath=2%20-%20Pyomo%20-%20Solutions.ipynb) | [Link](https://colab.research.google.com/github/sjpfenninger/optimisation-course/blob/main/2%20-%20Pyomo%20-%20Solutions.ipynb)|
+| 3 | MILP | [Link](https://mybinder.org/v2/gh/sjpfenninger/optimisation-course/HEAD?labpath=3%20-%20MILP.ipynb) | [Link](https://colab.research.google.com/github/sjpfenninger/optimisation-course/blob/main/3%20-%20MILP.ipynb)|
+| 3 | MILP - Solutions | [Link](https://mybinder.org/v2/gh/sjpfenninger/optimisation-course/HEAD?labpath=3%20-%20MILP%20-%20Solutions.ipynb) | [Link](https://colab.research.google.com/github/sjpfenninger/optimisation-course/blob/main/3%20-%20MILP%20-%20Solutions.ipynb)|
+| 4 | Multi-actor | - | - |
+| 5 | Larger problems | - | - |
+| 6 | Parametric uncertainty | [Link](https://mybinder.org/v2/gh/sjpfenninger/optimisation-course/HEAD?labpath=6%20-%20Parametric%20uncertainty.ipynb) | [Link](https://colab.research.google.com/github/sjpfenninger/optimisation-course/blob/main/6%20-%20Parametric%20uncertainty.ipynb)|
+| 6 | Parametric uncertainty - Solutions | [Link](https://mybinder.org/v2/gh/sjpfenninger/optimisation-course/HEAD?labpath=6%20-%20Parametric%20uncertainty%20-%20Solutions.ipynb) | [Link](https://colab.research.google.com/github/sjpfenninger/optimisation-course/blob/main/6%20-%20Parametric%20uncertainty%20-%20Solutions.ipynb)|
+| 7 | NLP | [Link](https://mybinder.org/v2/gh/sjpfenninger/optimisation-course/HEAD?labpath=7%20-%20NLP.ipynb) | [Link](https://colab.research.google.com/github/sjpfenninger/optimisation-course/blob/main/7%20-%20NLP.ipynb)|
+| 7 | NLP - Solutions | [Link](https://mybinder.org/v2/gh/sjpfenninger/optimisation-course/HEAD?labpath=7%20-%20NLP%20-%20Solutions.ipynb) | [Link](https://colab.research.google.com/github/sjpfenninger/optimisation-course/blob/main/7%20-%20NLP%20-%20Solutions.ipynb)|
 
 ## Run locally on your machine
 
@@ -56,7 +60,7 @@ solver = pyo.SolverFactory('glpk')
 
 ## License
 
-Authors: Stefan Pfenninger, Uğurcan Işık
+Authors: Stefan Pfenninger, Zofia Lukszo, Uğurcan Işık, Meike Lafeber
 
 [![CC BY 4.0][cc-by-image]][cc-by]
 
