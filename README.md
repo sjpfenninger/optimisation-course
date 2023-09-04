@@ -15,7 +15,8 @@ You will work in a temporary session in your web browser. You can either run the
 
 | No. | Topic | Binder | Google Colab |
 |---|---|---|---|
-| 1 | Getting started | [Link](https://mybinder.org/v2/gh/sjpfenninger/sen1511/HEAD?labpath=1%20-%20Getting%20started.ipynb) | [Link](https://colab.research.google.com/github/sjpfenninger/sen1511/blob/main/1%20-%20Getting%20started.ipynb)|
+| 1.a | Getting started - Python basics | [Link](https://mybinder.org/v2/gh/sjpfenninger/sen1511/HEAD?labpath=1a%20-%20Getting%20started%20-%20Python%20basics.ipynb) | [Link](https://colab.research.google.com/github/sjpfenninger/sen1511/blob/main/1a%20-%20Getting%20started%20-%20Python%20basics.ipynb)|
+| 1.b | Getting started - Pyomo introduction | [Link](https://mybinder.org/v2/gh/sjpfenninger/sen1511/HEAD?labpath=1b%20-%20Getting%20started%20-%20Pyomo%20introduction.ipynb) | [Link](https://colab.research.google.com/github/sjpfenninger/sen1511/blob/main/1b%20-%20Getting%20started%20-%20Pyomo%20introduction.ipynb)|
 | 2 | LP | [Link](https://mybinder.org/v2/gh/sjpfenninger/sen1511/HEAD?labpath=2%20-%20LP.ipynb) | [Link](https://colab.research.google.com/github/sjpfenninger/sen1511/blob/main/2%20-%20LP.ipynb)|
 | 2 | LP - Solutions | [Link](https://mybinder.org/v2/gh/sjpfenninger/sen1511/HEAD?labpath=2%20-%20LP%20-%20Solutions.ipynb) | [Link](https://colab.research.google.com/github/sjpfenninger/sen1511/blob/main/2%20-%20LP%20-%20Solutions.ipynb)|
 | 3 | Mixed complementarity problems | - | - |
@@ -35,6 +36,13 @@ You will work in a temporary session in your web browser. You can either run the
 * Install the requirements by executing in a terminal window: `conda env create -f environment.yml; conda activate sen1511`
 * Run jupyter lab by executing in a terminal window: `jupyter lab`
 * Open one of the notebooks and make sure you select the `sen1511` environment so that the necessary packages are available
+
+
+To run on your own computer, you need to install Python. The easiest way to do so is to install the Anaconda Python distribution. You also need some familiarity with working with the terminal / command line, which is not part of this course. The broad steps are:
+
+* [Install Anaconda](https://docs.anaconda.com/anaconda/install/)
+* Install the requirements by executing in a terminal window: `conda env create -f environment.yml`
+* Activate the course environment and run jupyter lab by executing in a terminal window: `conda activate sen1511; jupyter lab`
 
 ### Using Gurobi
 
@@ -58,7 +66,7 @@ solver = pyo.SolverFactory('glpk')
 
 ## License
 
-Authors: Stefan Pfenninger, Uğurcan Işık
+Authors: Stefan Pfenninger, Uğurcan Işık, Meike Lafeber, Zofia Lukszo
 
 [![CC BY 4.0][cc-by-image]][cc-by]
 
