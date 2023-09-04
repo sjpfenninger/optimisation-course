@@ -13,4 +13,4 @@ dependencies:
     - gurobi=9.5.2
     - pip
     - pip:
-        - -e git+https://github.com/sjpfenninger/sen1511.git#egg=sen1511utils&subdirectory=sen1511utils
+        - -e git+https://github.com/sjpfenninger/sen1511.git#egg=optimutils&subdirectory=optimutils
