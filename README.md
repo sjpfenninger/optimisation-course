@@ -30,39 +30,7 @@ You will work in a temporary session in your web browser. You can either run the
 
 ## Run locally on your machine
 
-(work in progress)
-
-* [Install Anaconda](https://docs.anaconda.com/anaconda/install/)
-* Install the requirements by executing in a terminal window: `conda env create -f environment.yml; conda activate optimisation-course`
-* Run jupyter lab by executing in a terminal window: `jupyter lab`
-* Open one of the notebooks and make sure you select the `optimisation-course` environment so that the necessary packages are available
-
-
-To run on your own computer, you need to install Python. The easiest way to do so is to install the Anaconda Python distribution. You also need some familiarity with working with the terminal / command line, which is not part of this course. The broad steps are:
-
-* [Install Anaconda](https://docs.anaconda.com/anaconda/install/)
-* Install the requirements by executing in a terminal window: `conda env create -f environment.yml`
-* Activate the course environment and run jupyter lab by executing in a terminal window: `conda activate optimisation-course; jupyter lab`
-
-### Using Gurobi
-
-Gurobi is a more powerful commercial solver than the free and open-source GLPK used in the course notebooks. For larger problems (more than a few 10,000 variables or constraints, and/or for mixed-integer problems) Gurobi is significantly faster.
-
-You can install a separate environment with Gurobi: `conda env create -f environment-gurobi.yml` or install it manually as per the [download instructions in its website](https://www.gurobi.com/).
-
-You will need to [request and install a free academic license from Gurobi](https://www.gurobi.com/downloads/end-user-license-agreement-academic/), which only works from machines on the TU Delft (or other university) network.
-
-To use Gurobi instead of GLPK, you only need to do
-
-```python
-solver = pyo.SolverFactory('gurobi')
-```
-
-instead of
-
-```python
-solver = pyo.SolverFactory('glpk')
-```
+See the [instructions to set up Python and Pyomo](docs/setup-python-and-pyomo.md).
 
 ## License
 
