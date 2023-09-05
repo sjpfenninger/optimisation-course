@@ -1,4 +1,4 @@
-name: sen1511-gurobi
+name: optimisation-course-gurobi
 channels:
     - conda-forge
     - gurobi
@@ -7,7 +7,7 @@ dependencies:
     - pyomo=6.4.1
     - pandas=1.4.3
     - matplotlib=3.5.3
-    - jupyter
+    - jupyterlab
     - glpk=5.0
     - ipopt=3.14.9
     - gurobi=9.5.2

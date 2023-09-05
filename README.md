@@ -30,7 +30,7 @@ You will work in a temporary session in your web browser. You can either run the
 
 ## Run locally on your machine
 
-See the [instructions to set up Python and Pyomo](docs/setup-python-and-pyomo.md).
+See the [instructions to set up Python and Pyomo](docs/install-on-your-computer.md).
 
 ## License
 
