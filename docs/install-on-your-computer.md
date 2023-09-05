@@ -2,6 +2,8 @@
 
 ## Install Python, Jupyter and Pyomo
 
+The instructions should be equally valid for macOS, Linux, and Windows.
+
 Note: If you prefer to work with the terminal / command line, see the terminal instructions further below.
 
 * Install the [Anaconda Python distribution](https://docs.anaconda.com/free/anaconda/install/).
@@ -10,6 +12,8 @@ Note: If you prefer to work with the terminal / command line, see the terminal i
 * Create a new environment in Anaconda Navigator by importing the file `environment.yaml` file inside the folder of downloaded course files, [as per the official documentation](https://docs.anaconda.com/free/navigator/tutorials/manage-environments/#importing-an-environment). Call this new environment "`optimisation-course`" or anything else you like.
 * Go to the "Home" tab in Anaconda Navigator, and click "JupyterLab" to launch Jupyter Lab. Make sure your newly-created environment is active on the "Environments" tab beforehand.
 * You can now navigate to where you stored the downloaded course files, open and run one of the course notebooks.
+
+### Alternative: using the terminal
 
 After installing the Anaconda Python distribution and downloading the course files, you can also proceed in the terminal if you prefer this:
 
