@@ -5,7 +5,7 @@
 
 # `optimisation-course`: SEN1511 Engineering Optimization and Integrating Renewables in Electricity Markets
 
-Materials for the TU Delft COSeM MSc course [SEN1511](https://studiegids.tudelft.nl/a101_searchCtrl.do?course_code=optimisation-course&surname=&item_value=&onlyElectives=Y&tag_id=&deleteTag_id=&operation=searchOnCode).
+Materials for the TU Delft COSeM MSc course [SEN1511](https://studiegids.tudelft.nl/a101_searchCtrl.do?course_code=sen1511&surname=&item_value=&onlyElectives=Y&tag_id=&deleteTag_id=&operation=searchOnCode).
 
 ## Run notebooks online
 
@@ -20,13 +20,7 @@ You will work in a temporary session in your web browser. You can either run the
 | 2 | LP | [Link](https://mybinder.org/v2/gh/sjpfenninger/optimisation-course/HEAD?labpath=2%20-%20LP.ipynb) | [Link](https://colab.research.google.com/github/sjpfenninger/optimisation-course/blob/main/2%20-%20LP.ipynb)|
 | 2 | LP - Solutions | [Link](https://mybinder.org/v2/gh/sjpfenninger/optimisation-course/HEAD?labpath=2%20-%20LP%20-%20Solutions.ipynb) | [Link](https://colab.research.google.com/github/sjpfenninger/optimisation-course/blob/main/2%20-%20LP%20-%20Solutions.ipynb)|
 | 3 | Mixed complementarity problems | - | - |
-| 4 | MILP | [Link](https://mybinder.org/v2/gh/sjpfenninger/optimisation-course/HEAD?labpath=4%20-%20MILP.ipynb) | [Link](https://colab.research.google.com/github/sjpfenninger/optimisation-course/blob/main/4%20-%20MILP.ipynb)|
-| 4 | MILP - Solutions | [Link](https://mybinder.org/v2/gh/sjpfenninger/optimisation-course/HEAD?labpath=2%20-%20MILP%20-%20Solutions.ipynb) | [Link](https://colab.research.google.com/github/sjpfenninger/optimisation-course/blob/main/2%20-%20MILP%20-%20Solutions.ipynb)|
-| 5 | Model frameworks and large-scale planning problems | - | - |
-| 6 | Parametric uncertainty | [Link](https://mybinder.org/v2/gh/sjpfenninger/optimisation-course/HEAD?labpath=6%20-%20Parametric%20uncertainty.ipynb) | [Link](https://colab.research.google.com/github/sjpfenninger/optimisation-course/blob/main/6%20-%20Parametric%20uncertainty.ipynb)|
-| 6 | Parametric uncertainty - Solutions | [Link](https://mybinder.org/v2/gh/sjpfenninger/optimisation-course/HEAD?labpath=6%20-%20Parametric%20uncertainty%20-%20Solutions.ipynb) | [Link](https://colab.research.google.com/github/sjpfenninger/optimisation-course/blob/main/6%20-%20Parametric%20uncertainty%20-%20Solutions.ipynb)|
-| 7 | NLP | [Link](https://mybinder.org/v2/gh/sjpfenninger/optimisation-course/HEAD?labpath=7%20-%20NLP.ipynb) | [Link](https://colab.research.google.com/github/sjpfenninger/optimisation-course/blob/main/7%20-%20NLP.ipynb)|
-| 7 | NLP - Solutions | [Link](https://mybinder.org/v2/gh/sjpfenninger/optimisation-course/HEAD?labpath=7%20-%20NLP%20-%20Solutions.ipynb) | [Link](https://colab.research.google.com/github/sjpfenninger/optimisation-course/blob/main/7%20-%20NLP%20-%20Solutions.ipynb)|
+
 
 ## Run locally on your machine
 
