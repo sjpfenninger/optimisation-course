@@ -20,7 +20,8 @@ You will work in a temporary session in your web browser. You can either run the
 | 2 | LP | [Link](https://mybinder.org/v2/gh/sjpfenninger/optimisation-course/HEAD?labpath=2%20-%20LP.ipynb) | [Link](https://colab.research.google.com/github/sjpfenninger/optimisation-course/blob/main/2%20-%20LP.ipynb)|
 | 2 | LP - Solutions | [Link](https://mybinder.org/v2/gh/sjpfenninger/optimisation-course/HEAD?labpath=2%20-%20LP%20-%20Solutions.ipynb) | [Link](https://colab.research.google.com/github/sjpfenninger/optimisation-course/blob/main/2%20-%20LP%20-%20Solutions.ipynb)|
 | 3 | Mixed complementarity problems | - | - |
-
+| 4 | MILP | [Link](https://mybinder.org/v2/gh/sjpfenninger/optimisation-course/HEAD?labpath=4%20-%20MILP.ipynb) | [Link](https://colab.research.google.com/github/sjpfenninger/optimisation-course/blob/main/4%20-%20MILP.ipynb)|
+| 4 | MILP - Solutions | [Link](https://mybinder.org/v2/gh/sjpfenninger/optimisation-course/HEAD?labpath=2%20-%20MILP%20-%20Solutions.ipynb) | [Link](https://colab.research.google.com/github/sjpfenninger/optimisation-course/blob/main/2%20-%20MILP%20-%20Solutions.ipynb)|
 
 ## Run locally on your machine
 
