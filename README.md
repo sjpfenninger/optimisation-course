@@ -17,9 +17,7 @@ You will work in a temporary session in your web browser. You can either run the
 |---|---|---|---|
 | 1.a | Getting started - Python basics | [Link](https://mybinder.org/v2/gh/sjpfenninger/optimisation-course/HEAD?labpath=1a%20-%20Getting%20started%20-%20Python%20basics.ipynb) | [Link](https://colab.research.google.com/github/sjpfenninger/optimisation-course/blob/main/1a%20-%20Getting%20started%20-%20Python%20basics.ipynb)|
 | 1.b | Getting started - Pyomo introduction | [Link](https://mybinder.org/v2/gh/sjpfenninger/optimisation-course/HEAD?labpath=1b%20-%20Getting%20started%20-%20Pyomo%20introduction.ipynb) | [Link](https://colab.research.google.com/github/sjpfenninger/optimisation-course/blob/main/1b%20-%20Getting%20started%20-%20Pyomo%20introduction.ipynb)|
-| 2 | LP | [Link](https://mybinder.org/v2/gh/sjpfenninger/optimisation-course/HEAD?labpath=2%20-%20LP.ipynb) | [Link](https://colab.research.google.com/github/sjpfenninger/optimisation-course/blob/main/2%20-%20LP.ipynb)|
-| 2 | LP - Solutions | [Link](https://mybinder.org/v2/gh/sjpfenninger/optimisation-course/HEAD?labpath=2%20-%20LP%20-%20Solutions.ipynb) | [Link](https://colab.research.google.com/github/sjpfenninger/optimisation-course/blob/main/2%20-%20LP%20-%20Solutions.ipynb)|
-| 3 | Mixed complementarity problems | - | - |
+
 
 
 ## Run locally on your machine
