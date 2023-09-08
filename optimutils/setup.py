@@ -4,10 +4,10 @@ from setuptools import setup
 requirements = (Path("requirements.txt").read_text().strip().split("\n"),)
 
 setup(
-    name="sen1511utils",
+    name="optimutils",
     version="0.1.0",
-    description="Utilities for the SEN1511 course code.",
-    url="https://github.com/sjpfenninger/sen1511",
-    packages=["sen1511utils"],
+    description="Optimisation course utilities.",
+    url="https://github.com/sjpfenninger/optimisation-course",
+    packages=["optimutils"],
     install_requires=requirements,
 )
