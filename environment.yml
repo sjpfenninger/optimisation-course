@@ -1,6 +1,7 @@
 name: optimisation-course
 channels:
     - conda-forge
+    - gurobi
 dependencies:
     - python=3.10
     - pyomo=6.4.1
@@ -9,6 +10,7 @@ dependencies:
     - jupyterlab
     - glpk=5.0
     - ipopt=3.14.9
+    - gurobi
     - pip
     - pip:
         - optimutils
