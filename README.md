@@ -1,3 +1,6 @@
+[cc-by]: http://creativecommons.org/licenses/by/4.0/
+[cc-by-image]: https://i.creativecommons.org/l/by/4.0/88x31.png
+
 # `optimisation-course`: SEN1511 Engineering Optimization and Integrating Renewables in Electricity Markets
 
 Materials for the TU Delft COSeM MSc course [SEN1511](https://studiegids.tudelft.nl/a101_searchCtrl.do?course_code=sen1511&surname=&item_value=&onlyElectives=Y&tag_id=&deleteTag_id=&operation=searchOnCode).
