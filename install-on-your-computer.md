@@ -20,7 +20,7 @@ These instructions should be equally valid for macOS, Linux, and Windows.
 
 The Anaconda Python distribution is optional, to make things easier for people with little Python experience. You can use any other installation of Python and just need to install the required packages. Assuming you have a working `conda` installation you can also:
 
-* In a terminal window, navigate to the downloaded course file folder and install the requirements by executing: `conda env create -f optimisation-course-environment.yml`
+* In a terminal window, navigate to the downloaded course file folder and install the requirements by executing: `conda env create -f environment.yml`
 * Run Jupyter Lab inside the downloaded folder - this way you don't have to navigate to the folder within Jupyter Lab: `conda activate optimisation-course; jupyter lab`
 
 ### Using an editor
