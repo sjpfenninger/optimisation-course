@@ -9,7 +9,6 @@ dependencies:
     - jupyterlab
     - glpk=5.0
     - ipopt=3.14.9
-    - git  # Necessary on Windows for pip-installing from a git repository
     - pip
     - pip:
-        - -e git+https://github.com/sjpfenninger/optimisation-course.git#egg=optimutils&subdirectory=optimutils
+        - optimutils
