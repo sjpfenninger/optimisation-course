@@ -1,16 +1,17 @@
 name: optimisation-course
 channels:
+    - conda-forge/label/calliope_dev
     - conda-forge
     - gurobi
 dependencies:
-    - python=3.10
-    - pyomo=6.4.1
-    - pandas=1.4.3
-    - matplotlib=3.5.3
+    - python=3.12
+    - matplotlib=3.9.2
     - jupyterlab
     - glpk=5.0
-    - ipopt=3.14.9
+    - ipopt=3.14.16
     - gurobi
+    - calliope=0.7.0dev4
     - pip
     - pip:
         - optimutils
+        - calligraph==0.1.1dev1
