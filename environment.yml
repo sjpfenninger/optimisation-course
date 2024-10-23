@@ -14,4 +14,4 @@ dependencies:
     - pip
     - pip:
         - optimutils
-        - calligraph==0.1.1dev1
+        - calligraph==0.1.1dev2
